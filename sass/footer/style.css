@@ -302,8 +302,12 @@ footer .container p {
     top: 70px;
     min-width: 300px;
   }
-  footer {
-    display: none;
+  footer .container {
+    padding: 65px 80px;
+  }
+  footer .container .footer_many {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 448px) and (max-width: 768px) {
@@ -364,8 +368,12 @@ footer .container p {
     top: 70px;
     min-width: 250px;
   }
-  footer {
-    display: none;
+  footer .container {
+    padding: 50px;
+  }
+  footer .container .footer_many {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 447px) {
@@ -426,7 +434,34 @@ footer .container p {
     top: 70px;
     min-width: 220px;
   }
-  footer {
-    display: none;
+  footer .container {
+    padding: 50px 10px;
+  }
+  footer .container .footer_many {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .container .footer_many .footer_right {
+    padding-right: 0px;
+  }
+  footer .container .footer_many .footer_right .footer_inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  footer .container .footer_many .footer_right .footer_inp input {
+    max-width: 220px;
+    padding: 15px 35px 15px 16px;
+  }
+  footer .container .footer_many .footer_right .footer_inp button {
+    padding: 15px 50px;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+  }
+  footer .container .footer_bg {
+    margin-top: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
